@@ -127,8 +127,6 @@
 
 ### Step 5: Run the Script to Trigger DHCP Events
 
-![Step 5 Screenshot](images/DHCP_Step5_RunScript.png)
-
 - Execute the script in PowerShell:  
   ```
   .\dhcp.bat
@@ -136,8 +134,6 @@
 ![Screenshot 13](images/Screenshot13.png)
 
 ### Step 6: Observe DHCP Traffic in Wireshark
-
-![Step 6 Screenshot](images/DHCP_Step6_Traffic.png)
 
 - In Wireshark, observe the following:  
   - DHCP Discover  
@@ -148,8 +144,6 @@
 ![Screenshot 15](images/Screenshot15.png)
 
 ### Step 7: Handle Temporary Disconnection
-
-![Step 7 Screenshot](images/DHCP_Step7_Disconnect.png)
 
 - If connection drops briefly after IP release, you may see a message like:  
   _"Connection lost..."_ (temporary during IP renewal)
